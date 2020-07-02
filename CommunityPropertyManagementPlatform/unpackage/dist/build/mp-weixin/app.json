@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/tabbar/tabbar-1/home",
+    "pages/tabbar/tabbar-2/inquire",
+    "pages/tabbar/tabbar-3/add",
+    "pages/tabbar/tabbar-4/tabbar-4",
+    "pages/tabbar/tabbar-5/my",
+    "pages/tabbar-3-detial/tabbar-3-feedback/tabbar-3-feedback",
+    "pages/tabbar-3-detial/tabbar-3-service/tabbar-3-service",
+    "pages/login/login"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#8dc63f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/tabbar-1/home",
+        "iconPath": "static/home0.png",
+        "selectedIconPath": "static/home1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar-2/inquire",
+        "iconPath": "static/inquire0.png",
+        "selectedIconPath": "static/inquire1.png",
+        "text": "查询"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar-3/add",
+        "iconPath": "static/add0.png",
+        "selectedIconPath": "static/add1.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar-4/tabbar-4",
+        "iconPath": "static/list0.png",
+        "selectedIconPath": "static/list1.png",
+        "text": "未开发"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar-5/my",
+        "iconPath": "static/my0.png",
+        "selectedIconPath": "static/my1.png",
+        "text": "我"
+      }
+    ]
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  },
+  "sitemapLocation": "sitemap.json"
+}

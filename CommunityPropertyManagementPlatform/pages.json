@@ -1,0 +1,98 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabbar/tabbar-1/home",
+			"style": {}
+		},
+		{
+			"path": "pages/tabbar/tabbar-2/inquire",
+			"style": {}
+		},
+		{
+			"path": "pages/tabbar/tabbar-3/add",
+			"style": {}
+		},
+		{
+			"path": "pages/tabbar/tabbar-4/message",
+			"style": {}
+		},
+		{
+			"path": "pages/tabbar/tabbar-5/my",
+			"style": {}
+		},
+		{
+			"path": "pages/tabbar-3-detial/tabbar-3-feedback/tabbar-3-feedback",
+			"style": {}
+		},
+		{
+			"path": "pages/tabbar-3-detial/tabbar-3-service/tabbar-3-service",
+			"style": {}
+		},
+		{
+            "path" : "pages/login/login",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/log/log",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/list/submitlist",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/list/messagelist",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationStyle": "custom"
+	},
+	"tabBar": {
+	    "color": "#000000",
+	    "selectedColor": "#8dc63f",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/tabbar/tabbar-1/home",
+				"iconPath": "static/home0.png",
+				"selectedIconPath": "static/home1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabbar/tabbar-2/inquire",
+				"iconPath": "static/inquire0.png",
+				"selectedIconPath": "static/inquire1.png",
+				"text": "查询"
+			},
+			//#ifdef MP-WEIXIN
+			{
+				"pagePath": "pages/tabbar/tabbar-3/add",
+				"iconPath": "static/add0.png",
+				"selectedIconPath": "static/add1.png",
+				"text": "发布"
+			},
+			//#endif
+			//#ifndef MP-WEIXIN
+			{
+				"pagePath": "pages/tabbar/tabbar-3/add",
+				"iconPath": "static/add0.png",
+				"selectedIconPath": "static/add1.png"
+			},
+			//#endif
+			{
+				"pagePath": "pages/tabbar/tabbar-4/message",
+				"iconPath": "static/message0.png",
+				"selectedIconPath": "static/message1.png",
+				"text": "留言"
+			},
+			{
+				"pagePath": "pages/tabbar/tabbar-5/my",
+				"iconPath": "static/my0.png",
+				"selectedIconPath": "static/my1.png",
+				"text": "我"
+			}
+		]
+	}
+}
